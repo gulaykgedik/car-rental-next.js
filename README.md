@@ -1,3 +1,51 @@
+
+# Car Rental Uygulaması
+
+Bu proje, araç kiralama hizmeti sunan bir web uygulamasıdır. Next.js App Router, TypeScript, Tailwind CSS, MongoDB, NextAuth ve Stripe Checkout kullanılarak geliştirilmiştir.
+
+## Ekran Görüntüsü
+<img width="800" height="432" alt="car-rental" src="https://github.com/user-attachments/assets/cff6590a-ccdb-4b7b-8793-a302f72eeccf" />
+
+
+## Özellikler
+
+- Araç listeleme ve detay görüntüleme
+- Kullanıcı kaydı, giriş ve çıkış
+- Google OAuth ile oturum açma
+- Stripe Checkout ile ödeme süreci
+- Siparişleri takip etme
+- Sipariş detay sayfası
+- Başarılı/iptal edilen ödeme sonrası yönlendirme
+
+## Teknolojiler
+
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- MongoDB / Mongoose
+- NextAuth.js
+- Stripe
+- Lucide React
+
+## Proje Yapısı
+
+- `src/app/` — sayfalar ve API route’ları
+- `src/components/` — UI bileşenleri
+- `src/lib/` — auth, MongoDB bağlantısı ve yardımcı fonksiyonlar
+- `src/models/` — Mongoose modelleri
+- `src/services/` — sunucu tarafı servisler
+- `src/types/` — TypeScript tipleri
+
+
+
+
+
+
+
+
+
+
 # Figma Tasarım Linki
 
 - https://www.figma.com/design/1zRit2Y71mG9wO32pHg8dC/Car-Rent-Website-Design---Pickolab-Studio--Community-?node-id=1-6&p=f&t=DbDGJ7BwhutDbgK6-0
